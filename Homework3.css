@@ -1,0 +1,60 @@
+
+
+body{
+	margin: 0px;
+}
+
+
+#div-nav{
+	background-image: url("目前桌布.jpg");
+	background-size: cover;
+	height: 800px;
+}
+
+
+.nav{
+	text-align: right;
+}
+
+
+
+.nav ul{
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  	padding: 0px;
+  	overflow: hidden;
+}
+
+
+.nav li {
+  	display: inline-block;
+ 	/* border-right: 1px solid black; */
+ 	margin-bottom: 0px;
+}
+
+
+.nav li a {
+  	display: block;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  	padding: 20px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	color: black;
+}
+
+
+.nav li a:hover {
+  	color: #8BB1C1;
+}
+
+
+#text{
+	height: 300px;
+}
+
+
+#text-top{
+	height: 100px;
+}

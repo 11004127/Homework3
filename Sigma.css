@@ -1,0 +1,103 @@
+
+
+body{
+	background-image: url("https://i.ibb.co/XFFxr37/image.jpg");
+	background-size: cover;
+	margin: 0px;
+}
+
+
+
+.nav{
+	text-align: right;
+}
+
+
+
+.nav ul{
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  	padding: 0px;
+  	overflow: hidden;
+}
+
+
+.nav li {
+  	display: inline-block;
+ 	/* border-right: 1px solid black; */
+ 	margin-bottom: 0px;
+}
+
+
+.nav li a {
+  	display: block;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  	padding: 20px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	color: black;
+}
+
+
+.nav li a:hover {
+  	color: #8BB1C1;
+}
+
+
+#main{
+	display: flex;
+	height: 700px;
+}
+
+
+#main #left{
+	width: 15%;
+}
+
+
+#main #between{
+	width: 70%;
+	box-shadow: 0 0 10px #00000070;
+}
+
+
+#main #between #text{
+	background-color: white;
+	height: 110px;
+	font-size: 36px;
+	text-align: center;
+}
+
+
+#main #between #picture{
+	background-color: white;
+	height: 590px;
+	text-align: center;
+}
+
+
+#main #between #picture img{
+	width: 250px;
+	padding: 8px;
+	opacity: 0.3;
+	transition: 0.5s;
+}
+
+#main #between #picture img:hover{
+	opacity: 1;
+	transform: scale(1.1,1.1);
+}
+
+
+
+
+#main #right{
+	width: 15%;
+}
+
+
+
+
+

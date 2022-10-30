@@ -1,0 +1,218 @@
+
+
+body{	
+	margin: 0px;
+}
+
+
+.header{
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: row;
+	overflow: hidden;
+
+	height: 300px;
+}
+
+
+.header img{
+	margin: 3px 7px 3px 2px;
+}
+
+
+.header:hover img:nth-of-type(1){
+	margin-left: -240px; /*距離*/
+	-webkit-transition: 2s linear;
+	-moz-transition: 2s linear;
+	-o-transition: 2s linear;
+	-ms-transition: 2s linear;
+	transition: 2s linear;
+
+}
+
+
+.demo{
+	width: 200px;
+	height: 200px;
+	background-color: #ccc;
+	margin: 80px auto 0;
+	transition: 0.5s;
+}
+
+
+.demo:hover{
+	transform: rotate(-45deg);
+	background-color: #fa0;
+	border-radius: 50%;
+}
+
+#top{
+	display: flex;
+	height: 950px;
+	
+}
+
+
+#top #picture-left{
+	width: 7%;
+}
+
+
+#top #mypicture{
+	width: 25%;
+}
+
+
+#top #mypicture #picture-top{
+	height: 20%;
+}
+
+
+#top #mypicture #picture img{
+	height: auto;
+	max-width: 100%;
+    width: 350px;
+    border-radius:50%;
+}
+
+
+#picture-right{
+	width: 3%;
+}
+
+
+#top #text{
+	width: 65%;
+}
+
+
+#top #text #text-top{
+	height: 5%;
+}
+
+
+#top #text #name{
+
+}
+
+
+#middle{
+	height: 400px;
+	display: flex;
+}
+
+
+#middle #skill-left{
+	width: 15%;
+}
+
+
+#middle #skill{
+	width: 35%;
+}
+
+
+#skill-text{
+	background-color: ;
+	width: 50%;
+}
+
+
+#calculus-1{
+	background-color: #EDEDED;
+	width: 70%;
+}
+
+
+#calculus-2{
+	background-color: #8BB1C1;
+	width: 55%;
+}
+
+
+#linear-algebra-1{
+	background-color: #EDEDED;
+	width: 70%;
+}
+
+
+#linear-algebra-2{
+	background-color: #8BB1C1;
+	width: 1%;
+}
+
+
+#html-css-1{
+	background-color: #EDEDED;
+	width: 70%;
+}
+
+
+#html-css-2{
+	background-color: #8BB1C1;
+	width: 30%;
+}
+
+
+#python-1{
+	background-color: #EDEDED;
+	width: 70%;
+}
+
+
+#python-2{
+	background-color: #8BB1C1;
+	width: 10%;
+}
+
+
+#bottom{
+	background-color: #8BB1C1;
+	height: 100px;
+	display: flex;
+}
+
+
+#bottom-left{
+	width: 32%;
+}
+
+
+.nav{
+	text-align: right;
+}
+
+
+
+.nav ul{
+	list-style-type: none;
+	margin-top: 0px;
+	margin-bottom: 0px;
+  	padding: 0px;
+  	overflow: hidden;
+}
+
+
+.nav li {
+  	display: inline-block;
+ 	/* border-right: 1px solid black; */
+ 	margin-bottom: 0px;
+}
+
+
+.nav li a {
+  	display: block;
+  	margin-top: 0px;
+  	margin-bottom: 0px;
+  	padding: 20px;
+  	text-decoration: none;
+  	font-size: 17px;
+  	color: black;
+}
+
+
+.nav li a:hover {
+  	color: #8BB1C1;
+}
+
+
